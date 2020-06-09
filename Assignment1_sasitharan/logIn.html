@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Show trackr</title>
+		<link rel="stylesheet" type='text/css' href="css/login.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+	<body>
+		<div id="topBar">
+			  <a href="index.html"><button type="button" id='logo'>Show<b>Trackr</b></button></a>
+			  <a href="index.html"><button type="button" id='home'>Home</button></a>
+			  <a href="add.html"><button type="button" id='add'>Add</button></a>
+			  <a href="signUp.html"><button type="button" id='signup'>Sign up</button></a>
+			  <a href="logIn.html"><button type="button" id='login'>Login</button></a>
+		</div>
+
+		<div id='loginDiv'>
+			<div id='loginTitleDiv'>Login</div>
+			<form method='post' name='signIn' action='#'>
+				<button  id='atFont' class="fa fa-at" aria-hidden='true'></button><input type='text' id='email' placeholder='Email'/><br/>
+				<button  id='keyFont' class='fa fa-key' aria-hidden='true'></button><input type='password' id='password' placeholder='password'/><br/>
+				<input type='Submit' value='Sign In' id='signInBtn' />
+			</form>
+			<br/>
+			<div id='bottomText'>
+				For got your password?<br/>
+				<a href='signup.html'>Don't have an account yet?<b>Sign Up</b></a>
+				<br/>
+				<br/>
+			</div>
+
+			<div id='signInApiDiv'>
+			<div id='orLabel'>OR</div>
+				<br/>
+				<img src='uses/logInBtnImg.PNG' id='loginWidthFb'/><br/>
+				<img src='uses/signInWithGoogle.PNG' id='loginWidthG'/>
+			</div>
+		</div>
+
+	</body>
+</html>
